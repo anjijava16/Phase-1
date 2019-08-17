@@ -19,6 +19,9 @@ wget -c --header "Cookie: oraclelicense=accept-securebackup-cookie" https://down
 echo Install RPM
 rpm -i jdk-8u201-linux-x64.rpm
 
+sudo yum install java-1.8.0-openjdk-devel java-11-openjdk-devel maven
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.222.b10-0.el8_0.x86_64
+
 #Setup Maven
 export JAVA_HOME=/usr/java/jdk1.8.0_201-amd64
 
