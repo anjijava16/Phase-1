@@ -76,10 +76,11 @@ echo'
 
 #Tomcat Setup:
 echo Tomcat Setup:
-export TOMCAT_VERSION=7.0.93
+export TOMCAT_VERSION=7.0.96
 #Download Tomcat
 echo Download Tomcat
 wget http://ftp.cixug.es/apache/tomcat/tomcat-7/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz
+#wget http://ftp.cixug.es/apache/tomcat/tomcat-7/v7.0.96/bin/apache-tomcat-7.0.96.tar.gz
 
 #Unzip tar file
 echo Unzip tar file
